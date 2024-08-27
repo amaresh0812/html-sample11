@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.name{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToQeYeClZMrqqq2aaTT2UdbuWtVktz8jQ9gw&s");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+
+}
+
+.name-a{
+    font-style: Qwitcher Grypen;
+}
+.vin{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 0;
+    
+}
+.vinn{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.info{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto;
+}
+.about{
+    text-align: justify center;
+}
+h2{
+    text-align: center;
+}
+#skills{
+    float: left;
+
+}
+.skills{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+#skills2{
+    margin: 0;
+    padding-top: 100px;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+button{
+    border-radius: 5px;
+}
+svg{
+    align-self: last baseline;
+}
